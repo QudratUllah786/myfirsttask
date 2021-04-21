@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+.main{
+ width: 1024px;
+  height: 100%;
+    margin: auto;
+    background-color:whitesmoke;
+}
+.header{
+    height: 203px;
+    /* border-bottom: solid black 1px; */
+}
+
+.topbar{
+    width: 1024px;
+    height: 40px;
+    background-color: green;
+    position: fixed; 
+    /* margin-top: 9px; */
+    /* position: sticky; */
+    top: 0px;
+    /* position: relative;
+    top: 0 px; */
+    z-index: +1;
+    /* top: 10px; */
+    /* bottom: 30px; */
+}
+.top1{
+    width: 512px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top:4px;
+}
+/* .top2{
+    width: 512px;
+    float: left;
+    color: white;
+text-align: center;
+padding-top:4px;
+} */
+.logomenue{
+    
+    height: 110px;
+    width: 1024px;
+    position: relative;
+    top: 50px;
+    /* margin-bottom: 1px solid black; */
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    /* margin-bottom: 1px solid black; */
+}
+
+.menuebar{
+width: 824px;
+height: 100px;
+float: left;
+}
+/* .logomenue{
+    margin-top: 8px;
+} */
+.newmarque{
+    height: 50px;
+    position: relative;
+    top: 40px;
+    border: 1px green solid;
+
+    
+}
+.news{
+width: 100px;
+float: left;
+position: relative;
+/* top: 20px; */
+background-color: green;
+color: white;
+/* border: 1px solid red; */
+height: 50px;
+/* border: red 0.5px solid; */
+}
+.marque{
+    width: 924px;
+    float: right;
+    height: 50px;
+    position: relative;
+    bottom: 55px;
+    
+}
+/* .mar{
+    position: relative;
+    top: 50px;
+} */
+
+.lo{
+    float: left;
+    position: relative;
+    top: -5px;
+}
+
+.banner{
+    width: 1024px;
+    text-align: center;
+}
+
+/*.ban{
+     width: 1024px;
+    height: 400px;} */
+
+.footer{
+    height: 40px;
+    width: 1024px;
+    background-color: green;
+    /* margin-top: 265px; */
+    /* position: relative;
+    /* top: 298px; */
+    /* top: -5px; */
+} 
+.fot{
+color: blanchedalmond;
+padding-top: 6px;
+text-align: center;
+}
+.bar ul  li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+left: 70px;
+/* background-color:green */
+background-color: rgb(243, 242, 242);
+    
+}
+.bar{
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+}
+.bar ul li a{
+    
+    text-decoration: none;
+    display: block;
+    /* display: inline; */
+    /* display: inline; */
+    /* box-shadow: rgb(0, 93, 105); */
+    text-align: center;
+    padding: 15px 30px;
+    margin: 10px;
+   color: black;
+    overflow: hidden;
+    /* position: relative;
+    left: 70px;
+     */
+    /* word-spacing: 5px; */
+}
+.bar ul li a:hover{
+    background-color:white;
+    box-shadow:0px 0px 7px 7px  green;
+    /* border: 1px solid; */
+    border: none;
+}
+.bar{
+    width: 1024px;
+    height: 100px;
+    
+    
+}
+.icon{
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+
+
+/* .bar{
+    /* position: -webkit-sticky; Safari */
+    
+    /* background-color: green; */
+    /* border: 2px solid #4CAF50; */
+  .tabl,.gifImage{
+      width: 512px;
+      float: left;
+  }
+  .tls,tr,th,td {
+      
+      text-align: center;
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  .tls{
+      position: relative;
+      left: 30px;
+      top: 20px;
+  }
+  .giftable{
+      width: 1024px;
+      height: 300px;
+  }
+  tr:nth-child(even){
+      background-color: cornflowerblue;
+
+  }
+  .end{
+      /* height: 100px; */
+      position: relative;
+      top: -20px;
+text-align: center;
+      display: inline;
+  }
+ .mar{
+     position: relative;
+     top: -100px;
+ }
+ .news strong h3{
+     display: inline;
+     position: relative;
+     top: 10px;
+ }
+.endpic{
+    width: 1024px;
+    height: 75px;
+    text-align: center;
+}
+.line{
+    position: relative;
+    top: -30px;
+    color: green;
+    font-weight: bold;
+    font-size: xx-large;
+
+
+}
+.bdy{
+    width: 600px;
+    /* text-indent: 10px; */
+    text-align: justify;
+    float: left;
+}
+.lftmar{
+    min-height: 300px;
+    width: 424px;
+    float: right;
+    margin-top: 50px;
+}
+.lft li{
+    list-style-type: none;
+}
+.new{
+    position: relative;
+    top: 10px;
+}
+.lftmar button{
+    width: 150px;
+    height: 60px;
+    /* padding: 10px ; */
+    min-width: 200px ;
+    position: relative;
+    bottom: 30px;
+    left: 88px;
+    font-weight: bold;
+    box-shadow:0px 0px 7px 7px  rgb(125, 128, 125);
+background-color: rgb(2, 51, 2);
+color: white;
+border: none;
+border-radius: 10px;
+}
+.lftmar button:hover{
+    background-color:black;
+}
+.bdymar{
+    height: 400px;
+}
+/* .inner{
+    position: relative;
+    top: 20px;
+} */
+/* h1+p{
+    font-weight: bold;
+} */
+h1~p,h1+span{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    line-height: 20px;
+}
+.prinmessage__pic{
+    height: 400px;
+}
+.prinmessage{
+    width: 580px;
+    /* text-indent: 10px; */
+    text-align: justify;
+    float: left;
+}
+.pic{
+    max-width: 444px;
+    height: 300px;
+    float: right;
+    border: solid 2px green;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+/* background-image:url(../images/principal_img.jpg) ;
+background-size: cover; */
+/* background-size: cover; */
+}
+figure{
+    position: relative;
+    top: 5px;
+}
+figure img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px green;
+    max-width: 324px;
+}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+.heading{
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    left: 30px;
+    word-spacing: 6px;
+}
+/* .dropdwn_content{
+    position: absolute;
+    display: none;
+}
+.dropt:hover .dropdwn_content{
+    display: block;
+}
+.dropdwn_content a {
+    display: block;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+
+
+  .dropdown_content{
+      display: none;
+  }
+  .dropdown_content .dropdown:hover{
+display: block;
+  }
+  .dropdown_content .dropt:hover{
+      display: block;
+  }
+  .lec1_lec2{
+      width: 1024px;
+      height: 600px;
+  }
+  .lec1{
+      width: 580px;
+      height:600px ;
+      float: left;
+  }
+  .lec2{
+      width: 344px;
+      height: 400px;
+      float: right;
+  }
+
+  .degree_program{
+      width: 1024px;
+      height: 600px;
+  }
+  .sp{
+      position: relative;
+      bottom: 20px;
+      /* right: 50px; */
+  }
+
+  .li{
+      position: relative;
+      bottom: 26px;
+      left: 10px;
+      font-size:x-large;
+      color: green;
+  }
+  .lif{
+    position: relative;
+    bottom: 27px;
+    left: -10px;
+    font-size:x-large;
+    color: green;
+    /* right: 20px; */
+  }
+  .degree_program figcaption h1{
+    font-family: 'Crimson Text', serif;
+  }
